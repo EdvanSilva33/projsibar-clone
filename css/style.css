@@ -1,0 +1,485 @@
+
+*{
+    font-family:Arial, 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*inicio do topo*/
+header{ 
+  height: 150px;
+    background-color: #2a5787;
+     margin-bottom: 20px;
+}
+.center{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+}
+.logo{
+    padding-top: 30px;
+    color: rgb(242, 242, 242);
+    width: calc(100% - 720px );
+}
+.logo h1 a{
+    
+    font-weight: normal;
+    font-size: 36px;
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+}
+.logo h3{
+    font-weight: normal;
+    font-size: 13px;
+    padding: 5px;
+    
+}
+
+.nav{
+   
+    padding-left: 25px;
+    padding-top: 70px;
+    width: 700px;
+}
+.nav ul li{
+    margin: 5px;
+    display: inline-block;
+}
+.nav a{
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.nav a:hover{
+  padding-bottom: 5px;
+    color:rgb(255, 165, 0);
+    border-bottom: rgb(255, 165, 0) solid 2px;
+}/*fim do topo*/
+
+/**inicio do slide****/
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+/* .text {
+  color: #080808;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+section{
+    padding-top: 40px;
+}
+.servico{
+    border-radius: 10px;
+    padding-top: 10px;
+     height: 200px;
+    width: 280px;
+     margin: 8px;
+     box-shadow: #b1b0b0 30px 10px 30px;
+}
+.img-letra{
+    display: flex;
+}
+.img-letra h3{
+    padding-top: 15px;
+    font-size: 15px;
+}
+.servico p{
+    font-size: 14px;
+    padding: 15px;
+    
+}
+.imgen-servico{
+    margin:0 10px;
+    width: 40px;
+    border-radius: 50%;   
+}
+.container{
+ width: 100%;
+ max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat( 4, 1fr);
+  grid-auto-rows: 150px;
+  gap: 15px;
+  grid-template-areas: 
+  "d-1 d-1 v-1 v-1"
+  "d-1 d-1 v-1 v-1"
+  "d-1 d-1 v-2 v-2"
+  "d-2 d-2 v-2 v-2"
+  "d-2 d-2 v-2 v-2"
+  "d-2 d-2 v-2 v-2";
+ 
+}
+
+.diretos{ 
+  text-align: center;
+  
+grid-area: d-1;
+}
+
+ .diretos li{
+  text-align: justify;
+  margin: 10px 17%;
+} 
+.imagen-servico{
+  
+  width: 90%;
+}
+.video{
+  background-color: #717171;
+  grid-area: v-1;
+
+}
+.video iframe{
+  width: 100%;
+  height: 100%;
+}
+
+.dentista{
+  text-align: center;
+  
+  grid-area: d-2;
+
+}
+.dentista li{
+  text-align: justify;
+  margin: 10px 17%;
+}
+.consulta-medica{
+  text-align: center;
+   
+  grid-area: v-2;
+
+}
+.consulta-medica li{
+  text-align: justify;
+  margin: 10px 17%;
+
+}
+
+.especialidades{
+  display: flex;
+  margin: 2px auto;
+  
+  width: 350px;
+}
+.direita{
+  
+  display: block;
+  margin: 0 10px;
+
+}
+.direita li{
+  display: none;
+}
+.esquerda{
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+
+}
+.esquerda p{
+  text-align: justify;
+  margin: 10px;
+}
+
+.line{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  border: 2px solid rgb(204, 204, 204 , 0.3) ;
+}
+.parte-end{
+  padding: 50px;
+  margin: 0 auto;
+  display: block;
+
+}
+.endereco{
+  padding: 10px;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 30px;
+}
+.text-end{
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+
+}
+
+.text-end p{
+margin: 10px;
+}
+.map iframe{
+  width: 500px;
+  height: 400px;
+  border: 0;
+}
+
+.grid{gap: 10px;
+  width: 100%;
+  max-width: 1000px;
+   display: grid;
+   grid-template-columns: repeat( 6, 1fr);
+   grid-auto-rows: 120px;
+   grid-template-areas: 
+   " n11 n13 n13 n13 m11 m11"
+    "n11 n13 n13 n13 m11 m11"
+    "n12 n14 n14 n14 m11 m11"
+    "n12 n14 n14 n14 m11 m11"
+}
+.noti-img{
+  align-self: center;
+  grid-area: n11;
+
+}
+.sub-noticia1{
+  
+  padding: 50px 10px;
+  grid-area: n13;
+ 
+}
+.termo-img{
+  align-self: center;
+  grid-area: n12;
+
+}
+.sub-noticia{
+  padding: 50px 10px;
+ 
+  grid-area: n14;
+  
+}
+.sub-noticia p{
+  margin: 10px 0;
+}
+.sub-noticia1 p{
+  margin: 10px 0;
+}
+.submenu{
+  padding: 30px;
+
+  grid-area: m11;
+  
+}
+.menu-meio ul{
+  list-style:url("../imagens/list-2.gif");
+  
+  text-decoration: none;
+}
+.menu-meio ul li{
+  margin: 10px 15px;
+  border-bottom-style: dotted;
+  border-bottom-color: #b1b0b0;
+  border-width: 2px;
+ 
+
+}
+.menu-meio li a{
+  color: hsl(210, 80%, 6%);
+  text-decoration: none;
+}
+.menu-meio li a:hover{
+  color:hsl(110, 57%, 47%)
+}
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: #232323;
+}
+.copy-right{
+  font-size: 14px;
+  padding: 20px;
+  color: #ccc;
+}
+
+.items-menu-mobile{
+  display:none ;
+}
+/* On smaller screens, decrease text size */
+@media screen  and (max-width:820px){
+  .logo{
+   
+    padding: 10px;
+    
+}
+.logo h1 a{
+  font-size: 30px;
+}
+.nav{
+   
+  padding-top: 90px;
+  width: 650px;
+}
+.logo h3{
+  display:none;
+  
+}
+
+  .servico{
+    
+    width: 300px;
+     margin: 10px auto;}
+
+     .center{
+      
+      display: inline-block;
+
+
+}
+.nav{
+  width: 500px;
+  font-size: 13px;
+}
+.container{
+  display:block;
+}
+.video{
+  width: 400px;
+  margin: 15px auto;
+}
+.video iframe{
+  width: 400px;
+  height: 300px;
+  
+}
+.map{
+  width: 380px;
+  margin: 8px auto;
+}
+.map iframe{
+  width: 380px;
+}
+.grid{
+  display: block;
+  padding: 40px;
+}
+.items-menu-mobile{
+  width:50%;
+  text-align: right;
+  
+}
+.nav{
+  display: none;
+}
+.items-menu-mobile{
+  display:block;
+ 
+}
+
+
+.items-menu-mobile i{
+  color:rgb(240, 236, 236);
+  position: relative;
+  left: 200px;
+  top: -60px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+ /*barra de menu moblie
+
+
+/*reponsibilidade do site para moblie inicio*/
+.slideshow-container{
+  display: none;
+}
+.dot{display: none;
+}
+
+  .menu-mobile{
+      border-radius: 10px;
+      margin: 10px 0 0 40%;
+      opacity: 0;
+      transition: 1s;
+      position: absolute;
+      left:0;
+      top:65px;
+      background-color: rgb(247, 243, 243);
+      width:50%;
+      padding:15px 0;
+      text-align: center;
+  }
+
+  .show{
+      opacity: 1;
+  }
+  .hide{
+      opacity: 0;
+  }
+
+  .menu-mobile a{
+      text-align: center;
+      display:block;
+      margin:8px 0;
+      color:rgb(40,40,40);
+      text-decoration: none;
+      font-weight: bold;
+      border-bottom:1px solid rgb(40,40,40);
+      padding:8px 0;
+  }
+  .menu-mobile a:hover{
+    background-color: rgb(255, 217, 0);
+    color: rgb(247, 9, 21);
+  }
+  .servico{
+    margin-top: 80px;
+    padding-top: 50px;
+  }
+
+}
+
+
+@media screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
