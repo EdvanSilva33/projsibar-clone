@@ -363,13 +363,13 @@ footer{
   display:block;
 }
 .video{
-  width: 90%;
-  max-width: 350px;
+  
+  max-width: 380px;
   margin: 15px auto;
 }
 .video iframe{
-  max-width: 350px;
-  width: 90%;
+  max-width: 380px;
+
   height: 280px;
   
 }
