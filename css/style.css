@@ -365,9 +365,10 @@ footer{
   display:block;
 }
 .video{
+
   width: 100%;
   max-width: 380px;
-  margin: 15px auto;
+  margin: 15px 5%;
 }
 .video iframe{
   width: 100%;
