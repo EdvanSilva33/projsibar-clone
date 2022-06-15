@@ -374,11 +374,13 @@ footer{
   
 }
 .map{
-  width: 380px;
+  width: 100%;
+  max-width: 380px;
   margin: 8px auto;
 }
 .map iframe{
-  width: 380px;
+  max-width: 380px;
+  width: 100%;
 }
 .grid{
   display: block;
