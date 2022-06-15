@@ -366,22 +366,22 @@ footer{
 }
 .video{
   
-  max-width: 370px;
+  max-width: 380px;
   margin: 15px auto;
 }
 .video iframe{
-  max-width: 370px;
+  max-width: 380px;
 
   height: 280px;
   
 }
 .map{
   
-  max-width: 350px;
+  max-width: 320px;
   margin: 8px auto;
 }
 .map iframe{
-  max-width: 350px;
+  max-width: 320px;
 
 }
 .grid{
