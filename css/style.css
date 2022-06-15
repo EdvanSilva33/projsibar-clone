@@ -239,8 +239,10 @@ grid-area: d-1;
 margin: 10px;
 }
 .map iframe{
-  width: 500px;
-  height: 400px;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 400px;
   border: 0;
 }
 
@@ -364,23 +366,23 @@ footer{
 }
 .video{
   
-  max-width: 380px;
+  max-width: 370px;
   margin: 15px auto;
 }
 .video iframe{
-  max-width: 380px;
+  max-width: 370px;
 
   height: 280px;
   
 }
 .map{
-  width: 100%;
-  max-width: 380px;
+  
+  max-width: 350px;
   margin: 8px auto;
 }
 .map iframe{
-  max-width: 380px;
-  width: 100%;
+  max-width: 350px;
+
 }
 .grid{
   display: block;
