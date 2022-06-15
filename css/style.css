@@ -154,13 +154,13 @@ grid-area: d-1;
   width: 90%;
 }
 .video{
-  background-color: #717171;
+  
   grid-area: v-1;
 
 }
 .video iframe{
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
 
 .dentista{
@@ -363,13 +363,13 @@ footer{
   display:block;
 }
 .video{
-  width: 100%;
+  width: 90%;
   max-width: 400px;
   margin: 15px auto;
 }
 .video iframe{
-  max-width: 400px;
-  width: 100%;
+  max-width: 350px;
+  width: 90%;
   height: 300px;
   
 }
