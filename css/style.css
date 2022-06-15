@@ -371,7 +371,7 @@ footer{
 }
 .video iframe{
   max-width: 380px;
-
+  margin: 15px auto;
   height: 280px;
   
 }
@@ -381,6 +381,7 @@ footer{
   margin: 8px auto;
 }
 .map iframe{
+  margin: 10px auto;
   max-width: 320px;
 
 }
