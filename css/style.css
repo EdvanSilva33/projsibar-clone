@@ -128,7 +128,7 @@ section{
   display: grid;
   grid-template-columns: repeat( 4, 1fr);
   grid-auto-rows: 150px;
-  gap: 15px;
+  gap: 20px;
   grid-template-areas: 
   "d-1 d-1 v-1 v-1"
   "d-1 d-1 v-1 v-1"
@@ -151,17 +151,15 @@ grid-area: d-1;
 } 
 .imagen-servico{
   
+  
   width: 90%;
 }
 .video{
-  
+  text-align: center;
   grid-area: v-1;
 
 }
-.video iframe{
-  width: 90%;
-  height: 90%;
-}
+
 
 .dentista{
   text-align: center;
@@ -322,7 +320,9 @@ footer{
   padding: 20px;
   color: #ccc;
 }
-
+.map-mobile{
+  display: none;
+}
 .items-menu-mobile{
   display:none ;
 }
@@ -361,37 +361,19 @@ footer{
 .container{
   display:block;
 }
-.video{
 
-  width: 100%;
-  max-width: 380px;
-  margin: 15px 5%;
+.video{height: 350px;
+ padding: 10px;
 }
-.video iframe{
-  width: 100%;
-  max-width: 380px;
-  margin: 10px auto;
-  height: 280px;
-  
+.map-site{
+  display: none;
 }
-.map{
-  
-  max-width: 320px;
-  max-height: 300px;
-  margin: 8px auto;
-  width: 100%;
-  height: 100%;
+.map-mobile{
+  padding: 20px;
+  display: block;
 }
-.map iframe{
-  margin: 10px auto;
-  max-width: 320px;
-  max-height: 300px;
-  height: 100%;
-  width: 100%;
-  
 
 
-}
 .grid{
   display: block;
   padding: 40px;
