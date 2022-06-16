@@ -368,6 +368,9 @@ footer{
 .map-site{
   display: none;
 }
+.map{
+  height: 350px;
+}
 .map-mobile{
   padding: 20px;
   display: block;
@@ -471,7 +474,20 @@ height: 240px;
   font-size: 40px;
   text-align: center;
 }
+.diretos{
+  text-align: justify;
+}
+.diretos h2{
+  text-align: center;
+}
+.imagen-direitos{
+  margin-left: 10px;
+  padding-left: 20px;
 
+}
+.center{
+  text-align: center;
+}
 
 }
 
