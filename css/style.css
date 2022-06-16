@@ -341,10 +341,7 @@ footer{
   padding-top: 90px;
   width: 650px;
 }
-.logo h3{
-  display:none;
-  
-}
+
 
   .servico{
     
@@ -416,8 +413,8 @@ footer{
 .items-menu-mobile i{
   color:rgb(240, 236, 236);
   position: relative;
-  left: 160px;
-  top: -35px;
+  left: 170px;
+  top: -100px;
   font-size: 30px;
   cursor: pointer;
 }
@@ -477,12 +474,12 @@ footer{
 }
 .slideshow-container {
 
-height: 250px;
+height: 240px;
   position: relative;
   margin: auto;
 }
 .mySlides img{
-  height: 250px;
+  height: 240px;
 }/***altura da imagen no responsivel*/ 
 .logo{
   width: 300px;
